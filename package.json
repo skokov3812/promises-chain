@@ -1,0 +1,25 @@
+{
+  "name": "promises-chain",
+  "version": "1.0.0",
+  "description": "The execution of the promises chain",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skokov3812/promises-chain.git"
+  },
+  "keywords": [
+    "chain",
+	"promise",
+	"promises",
+	"Promise.chain"
+  ],
+  "author": "Roman Skokov (skokov3812)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skokov3812/promises-chain/issues"
+  },
+  "homepage": "https://github.com/skokov3812/promises-chain#readme"
+}
