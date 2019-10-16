@@ -9,6 +9,22 @@ Return an array of promises results
 npm i promises-chain
 ```
 
+```js
+let Promise1 = () => new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve()
+  }, 1000);
+})
+...
+
+Promise.resolve(Promise1)
+  .then(Promise2)
+  .then(Promise3)
+  .then(Promise4)
+  
+Promise.chain([Promise1, Promise2, Promise3, Promise4])
+```
+
 ## Example:
 ```js
 const promisesChain = require('promises-chain');
