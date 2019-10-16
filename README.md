@@ -1,4 +1,4 @@
-# promise-chain
+# promises-chain
 The execution of the promises chain
 
 Promise.chain is actually a promise that takes an array of anonymous function with promises as an input (an iterable).
